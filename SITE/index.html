@@ -189,7 +189,7 @@
                 </div>
               </div>
             </div>
-            <div class="col d-sm-none d-md-block">
+            <div class="col d-none d-sm-block">
               <div class="card">
                 <img src="./css/img/croix-rouge2.png" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -198,8 +198,8 @@
                 </div>
               </div>
             </div>
-            <div class="col d-sm-none d-md-block">
-              <div class="card">
+            <div class="col d-none d-sm-block ">
+              <div class="card ">
                 <img src="./css/img/carousel/carousel1.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
@@ -211,6 +211,76 @@
         </div>
       </section>
 
-    <script src="js/vendors/bootstrap.bundle.min.js"></script>
+      <section class="cc-carousel merriweather bg-dark text-light text-center py-5">
+        <div class="container">
+          <div class="row">
+            <h1 class="text-uppercase">Les aides proposés</h1>
+            <div class="col pb-4">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure minus doloremque voluptatem voluptates in eius tempora id! Porro quasi, ducimus ex exercitationem perspiciatis eius harum qui. Culpa iure explicabo eos.
+            </div>
+          </div>
+          <div id="carouselExampleFade" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./css/img/carousel/carousel1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./css/img/carousel/carousel2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./css/img/carousel/carousel3.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="order-form py-5">
+        <div class="container">
+          <h2 class="merriweather text-center text-light mb-4">Renseignez-vous ici</h2>
+          <form action="">
+            <div class="row">
+              <div class="col-md-6 col-sm">
+                <div class="col-md-6 col-sm"><div class="input-group mb-3">
+                 
+                  <input type="text" class="form-control" placeholder="Votre nom">
+                  <span class="input-group-text" id="basic-addon1"><i class="fas fa-user"></i></span>
+                </div>  
+                </div>
+                <div class="col-md-6 col-sm">
+                  <div class="col-md-6 col-sm"><div class="input-group mb-3">
+                  
+                    <input type="email" class="form-control" placeholder="Votre email">
+                    <span class="input-group-text" id="basic-addon1"><i class="fas fa-at"></i></span>
+                  </div>
+                  <div class="col-md-6 col-sm"><div class="input-group mb-3">
+                  
+                    <input type="number" class="form-control" placeholder="Votre numéro de téléphone">
+                    <span class="input-group-text" id="basic-addon1"><i class="fas fa-phone"></i></span>
+                  </div>   
+                  <div class="col-md-6 col-sm"><div class="input-group mb-3">
+                    
+                    <input type="text" class="form-control" placeholder="Votre adresse Ex : 33 Bordeaux">
+                    <span class="input-group-text" id="basic-addon1"><i class="fas fa-home"></i></span>
+                  </div>  
+                </div>
+              </div>
+
+            </div>
+          </form>
+        </div>
+
+      </section>
+    
+
+    <script src="js/vendors/bootstrap.js"></script>
 </body>
 </html>
